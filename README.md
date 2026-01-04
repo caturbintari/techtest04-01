@@ -114,10 +114,9 @@ python additional.py
 
 ```text
 /techtest04-01
-├── generate_data.py       # Main script for Data Generation (CSV)
-├── requirements.txt       # Python dependencies
-├── README.md              # Documentation
-│
+├── __pycache__/
+├── .pytest_cache/
+├── allure-results/
 ├── api/                   # API automation test suite
 │   ├── test_01_status.py
 │   └── test_02_latency.py
@@ -132,6 +131,10 @@ python additional.py
 │   ├── test_negative.py   # 5 negative scenario
 │   └── test_positive.py   # 5 positive scenario
 │   └── test_positive.py   # 5 positive scenario
+│
+├── README.md              # Documentation
+├── requirements.txt       # Python dependencies
+
 
 
 ```
@@ -139,7 +142,3 @@ python additional.py
 ---
 
 _Submitted for Technical Test. By, Caturiani Pratidina Bintari_
-
-```
-
-```
